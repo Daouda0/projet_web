@@ -1,0 +1,50 @@
+.banner-big-sale .container{
+    background-image: url("../../images/banner/banner-4.jpg");
+   height: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.banner-big-content-btn{
+    color: var(--main-color-white);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.banner-big-sale .btn{
+    border-radius: 0;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.6rem;
+    border: none;
+    white-space: nowrap;
+}
+.banner-big-sale .btn:nth-child(1){
+    background-color: var(--main-color-black);
+    color: var(--main-color-white);
+    transform: rotate(-10deg);
+}
+.banner-big-sale .btn:nth-child(3){
+    background-color:var(--main-color-white);
+    color: (--main-color-black);
+    transform: rotate(10deg);
+}
+
+@media screen and (max-width:992px) {
+   
+}
+@media screen and (max-width:1150px) {
+   
+}
+@media screen and (max-width:768px) {
+    .banner-big-content-btn{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:576px) {
+   
+}
+@media screen and (max-width:400px) {
+   
+} 

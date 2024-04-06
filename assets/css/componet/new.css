@@ -1,0 +1,45 @@
+.new-item{
+    width: 250px;
+    cursor: pointer;
+}
+.new-item h2{
+    font-size: 1.2rem;
+}
+.new-detail{
+    padding: 5px;
+}
+.new-item:hover{
+    /* box-shadow:  4px 8px 16px rgba(0, 0, 0, 40%); */
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+
+}
+.new-item .new-content{
+    color: var(--main-color-gray);
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.new-comment{
+    margin-bottom: 10px;
+}
+.new {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:992px) {
+   
+}
+@media screen and (max-width:1150px) {
+   
+}
+@media screen and (max-width:768px) {
+    .new{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:576px) {
+   
+}
+@media screen and (max-width:400px) {
+   
+}

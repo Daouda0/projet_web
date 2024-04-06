@@ -1,0 +1,102 @@
+footer{
+    background-color: var(--main-color-black);
+    color: var(--main-color-white);
+}
+.footer-item{
+    margin: 10px 0;
+}
+.footer-item h4{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.1rem;
+    margin: 0;
+}
+.footer-item p{
+    margin: 5px;
+}
+.footer-list{
+    width: 300px;
+}
+.footer-list h2{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+/* ----------------------FOOTER-LIST-------------------------- */
+.footer-list ul li{
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+.footer-list .footer-targ{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    cursor: pointer;
+}
+.footer-list .footer-targ .targs{
+    border: 1px solid var(--main-color-white);
+    padding: 10px;
+    font-size: 1.1rem;
+   
+}
+.footer-list.foter-subscribe{
+    font-size: 1.1rem;
+}
+.footer-list .footer-input{
+    display: flex;
+}
+.footer-list .footer-input input{
+    flex: 1;
+    border-radius: 50px;
+    background-color: #37393b;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: rgb(228,227,227);
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+/* .footer-list .footer-input ::placeholder{
+    color: var(--main-color-white);
+    
+} */
+.footer-list button{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    height: 45px;
+    border-radius: 35px;
+}
+.footer-content{
+    border-bottom: 0.1px solid var(--main-color-gray);
+} 
+.footer-bottom-left{
+    font-size: 1.2rem;
+}
+@media screen and (max-width:992px) {
+   
+}
+@media screen and (max-width:1150px) {
+   
+}
+@media screen and (max-width:768px) {
+    .footer-content, .footer-bottom{
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:576px) {
+   
+}
+@media screen and (max-width:400px) {
+    .footer-content{
+        width: 90%;
+    }
+   
+}

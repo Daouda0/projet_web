@@ -1,0 +1,17 @@
+@keyframes slideInfromleft{
+    from{
+        margin: -100%;
+    }
+
+    to{
+        margin: 0%;
+    }
+}
+@keyframes slideInfromright{
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
